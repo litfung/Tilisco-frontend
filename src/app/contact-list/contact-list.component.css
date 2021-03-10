@@ -1,0 +1,122 @@
+.contact{
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3ca939;
+    float: left;
+    padding-left: 50px;
+    padding-top: 50px;
+
+}
+
+.text-input{
+  width: 440px;
+  height: 49px;
+  margin-top: 30px;
+  margin-left: 50px;
+  padding-left: 50px;
+  border-radius: 3px;
+  border: solid 1px #c5c9cf;
+  background-color: rgba(245, 247, 250, 0.2);
+  margin-bottom: 50px;
+}
+
+.add-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    right: 7%;
+    top: 39%;
+    border-radius: 38px;
+    background-color: rgba(60, 169, 57, 0.1);
+    width: 12%;
+    justify-content: space-between;
+    float: right;
+    margin-right: 50px;
+    margin-top: -61px;
+    margin-bottom: 64px;
+}
+
+
+
+
+.add-icon{
+    margin-top: 15px;
+}
+
+.table {
+        margin-left: 50px;
+        margin-right: 100px;
+        width: 86%!important;
+        border-collapse: collapse;
+}
+
+.avatar{
+    margin-right: 20px;
+}
+
+.table td {
+     
+      text-align: right;
+      padding-top: 30px;
+      font-size: 20px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #727272;
+
+}
+
+.table th {
+
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9b9b9b;
+}
+
+
+
+.call-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    position: absolute;
+    left: 76%;
+    border-radius: 3px;
+    background-color: rgba(60, 169, 57, 0.1);
+    width: 12%;
+    padding-left: 10px;
+    margin-top: -100px;
+    border-radius: 9px;
+}
+
+img.call-svg {
+    width: 20%;
+}
+
+span.new-call {
+    margin-top: 13px;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #9b9b9b;
+    margin-bottom: 15px;
+    padding-left: 3px;
+}
+span.new-call:hover{
+    color:black;
+    cursor: pointer;
+}

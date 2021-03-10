@@ -1,0 +1,35 @@
+.btn{
+    background-color: #3ca939;
+    width: 60%;
+    margin-left: 18%;
+    margin-bottom: 10%;
+}
+span{
+       color: var(--white);
+
+}
+mat-icon{
+   color: var(--white);
+}
+.calendar-icon{
+    position: absolute;
+  left: 200px;
+  top: 7px;
+}
+h1{
+    font-size: 26px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+}
+.form-control{
+    border-radius: 6px;
+    border: solid 1px #3ca939;
+  }
+

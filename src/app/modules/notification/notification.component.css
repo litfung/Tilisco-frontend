@@ -1,0 +1,9 @@
+.chat{
+    background-color: aquamarine;
+}
+.divider{
+    width: 220px;
+    height: 2px;
+    margin: 5px 30px 5px 30px;
+    border: solid 1px #e0e0e0;
+  }

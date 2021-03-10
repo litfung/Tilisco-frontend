@@ -1,0 +1,120 @@
+.pr-3.pb-3{
+    float: right;
+    margin-right: 50px;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.D-flex{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-content: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+.call-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    position: absolute;
+    left: 45%;
+    border-radius: 3px;
+    background-color: rgba(60, 169, 57, 0.1);
+    width: 20%;
+    padding-left: 10px;
+    margin-top: -100px;
+    border-radius: 9px;
+}
+
+img.call-svg {
+    width: 20%;
+}
+
+
+.contact-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    position: absolute;
+    left: 70%;
+    border-radius: 3px;
+    background-color: rgba(60, 169, 57, 0.1);
+    width: 22.5%;
+    margin-top: -100px;
+    padding-left: 10px;
+    border-radius: 9px;
+}
+
+img.contact-svg {
+    width: 18%;
+}
+
+span.new-call {
+    margin-top: 13px;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #9b9b9b;
+    margin-bottom: 15px;
+    padding-left: 3px;
+}
+span.new-call:hover{
+    color:black;
+    cursor: pointer;
+}
+
+span.contact-call{
+    margin-top: 13px;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #9b9b9b;
+    margin-bottom: 15px;
+    padding-left: 3px;
+}
+
+span.contact-call:hover{
+    color:black;
+    cursor: pointer;
+}
+
+hr.solid {
+    border-top: 3px solid #f3f3f3;
+    width: 940px;
+    margin-left: 50px;
+  }
+
+  .vl {
+    border-left: 3px solid #f3f3f3;
+    height: 700px;
+    padding-left: 20px;
+    margin-top: -248px;
+    
+  }
+
+  .day{
+    font-size: 36px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9b9b9b;
+    margin-left: 50px;
+    margin-top: -95px;
+
+  }

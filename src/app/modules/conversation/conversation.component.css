@@ -1,0 +1,159 @@
+ .video-call{
+display: block;
+background-color: rgb(255, 255, 255);
+width: 100%;
+height: 100%;
+position: relative;
+}
+.video-model{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+button{
+  width: 50px;
+  border-radius: 5px;
+}
+
+.add-user{
+  position: absolute;
+  right: 40px;
+}
+.full{
+  position: absolute;
+  right: 110px;
+}
+.menu{
+  position: absolute;
+  left: 40px;
+}
+.user-img{
+  position:absolute;
+  left: 110px;
+}
+button{
+  background-color: var(--white);
+  border-style: inherit;}
+
+  .bubble {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    width: 30%;
+    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.1);
+    background: white;
+    border-radius: 40px;
+    padding: 24px;
+    text-align: center;
+    color: #000;
+    margin: 31px 26px;
+  }
+  
+  .bubble-bottom-left:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid white;
+    border-right: 12px solid transparent;
+    border-top: 12px solid white;
+    border-bottom: 20px solid transparent;
+    left: 32px;
+    bottom: -24px; 
+
+  }
+
+  .box {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    width: 30%;
+    background:#a3a3a3;
+    border-radius: 40px;
+    padding: 24px;
+    text-align: center;
+    color: #000;
+    margin: 31px 26px;
+    float: right;
+    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .sb4:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #a3a3a3;
+    border-top: 10px solid #a3a3a3;
+    border-bottom: 10px solid transparent;
+    right: 19px;
+    bottom: -16px;
+  }
+  
+  .w{
+    width: 86%;
+    top: 208px;
+    position: relative;
+    height: 60px;
+    padding: 15px 97px 15px 23px;
+   
+    border-radius: 24px;
+    display: inline-flex;
+    box-shadow: 13px -2px 18px 4px rgba(0,0,0,0.48);
+    margin: 0 80px;
+
+  }
+  input[type="text"]{
+    width: 77%;
+    height: 40px;
+    margin: 0 6px;
+    border-radius: 24px;
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    position: relative;
+    bottom: 6px;
+    left: 87px;
+}
+
+img.emoji-btn{
+  position: absolute;
+  top: 22px;
+  display: inline-flex;
+  object-fit: cover;
+  right: 136px;
+}
+
+img.submit{
+  position: absolute;
+  display: inline-flex;
+  right: -5px;
+  top: -6px;
+  width: 6.5%;
+   }
+
+img.attach-file{
+  position: absolute;
+  top: 18px;
+  display: flex;
+  left: 52px;
+  z-index: 1;
+}
+
+img.micro-btn{
+  position: absolute;
+  right: 73px;
+  z-index: 1;
+  top: 11px;
+  object-fit: cover;
+  margin: 8px 10px;
+}
+

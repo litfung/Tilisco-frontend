@@ -1,0 +1,24 @@
+
+mat-icon{
+    color: var(--white);
+    opacity: 0.5;
+    
+}
+
+ul{
+    justify-content: center;
+}
+.settings{
+    position: fixed;
+    bottom: 36px;
+    left: 31px;
+
+    
+}
+.image1{
+    width: 19px;
+    height: 21px;
+        }
+.nav-item{
+    padding-bottom: 10px;
+}

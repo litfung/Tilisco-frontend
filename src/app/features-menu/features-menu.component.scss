@@ -1,0 +1,142 @@
+//options
+.features{
+    padding:0 10px;
+    div{
+        display:flex;
+        padding: 5px 0;
+        cursor: pointer;
+        &:hover span
+        {
+            color: #3ca939;
+        }
+        
+    }
+}
+
+.options{
+    box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.12);
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    padding: 10px;
+
+}
+
+.title{
+    padding-top: 6px;
+    padding-left: 11px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 0.34px;
+    color: #616161;
+  }
+
+  .material-icons {
+    width: 18px;
+    height: 18px;
+    padding: 4px 3px 3px 4px;
+    color: #a3a3a3;
+  }
+  
+.capture {
+    display: flex;
+  
+}
+
+.capture:hover span{
+    color: #3ca939;
+    }
+
+    .image1 {
+        width: 22px;
+     
+        background-position: left;
+        padding: 4px 3px 3px 4px;
+    }
+
+    
+
+  /*.capture .icon {
+
+       
+        background-image: url(/src/assets/img/camera-focus.png) no-repeat left;
+    }*/
+
+
+.vedio-message{
+    display: flex;
+   
+}
+
+.vedio-message:hover span{
+    color: #3ca939;
+    }
+    
+.location {
+    display: flex;
+}
+
+.location:hover span{
+    color: #3ca939;
+    }
+
+.add-board {
+    display: flex;
+   
+}
+
+.add-board:hover span{
+    color: #3ca939;
+    }
+
+.activate{
+    display: flex;
+ 
+
+}
+
+.activate:hover span{
+    color: #3ca939;
+    }
+
+.bg-effect{
+    display: flex;
+   
+
+}
+
+.bg-effect span.title {
+    padding-left: 5px;
+}
+
+.bg-effect:hover span{
+    color: #3ca939;
+    }
+
+.put-the-call{
+    display: flex;
+   
+
+}
+
+.put-the-call:hover span{
+    color: #3ca939;
+    }
+
+.settings{
+    display: flex;
+   
+}
+
+.settings:hover span{
+    color: #3ca939;
+    }
+
+
+
+
+
+

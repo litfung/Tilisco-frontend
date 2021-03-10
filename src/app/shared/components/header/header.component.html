@@ -1,0 +1,78 @@
+<mat-toolbar class="bg" >
+    <mat-toolbar-row>
+        <button  mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <div >
+               <img class="avatar sb4" src="assets/images/avatar.png" >
+            </div>
+           
+        </button>
+      
+          <mat-menu #menu="matMenu">   
+            <img class="user-avatar" src="assets/images/avatar.png" >  
+            <span  class="avatar-label">Rami Hadef</span>       
+            <button mat-menu-item>
+              <img src="assets/images/night.png" alt="user-image" class="mr-2" height="12"><span  class="align-middle">Dark Theme</span>
+              <mat-slide-toggle></mat-slide-toggle>
+
+            </button>
+            <button mat-menu-item >
+              <img src="assets/images/notificatons.png" alt="user-image" class="mr-2" height="12"> <span  class="align-middle">Notifications</span>
+              <mat-slide-toggle></mat-slide-toggle>
+
+            </button>
+            <mat-divider class="divider"></mat-divider>
+
+            <button mat-menu-item>
+              <img src="assets/images/user-1.png" alt="user-image" class="mr-2" height="12">              <span  class="align-middle">Profile</span>
+            </button>
+            <button mat-menu-item>
+              <img src="assets/images/group.png" alt="user-image" class="mr-2" height="12">              <span  class="align-middle">Messaging</span>
+            </button>
+            <button mat-menu-item>
+              <img src="assets/images/phone-book.png" alt="user-image" class="mr-2" height="12">                <span  class="align-middle">Contact</span>                
+              </button>
+              <mat-divider class="divider"></mat-divider>
+
+
+              <button mat-menu-item [matMenuTriggerFor]="languages"> <mat-icon >language</mat-icon> <span  class="align-middle">Languages</span> </button>
+              <mat-divider class="divider"></mat-divider>
+
+              <button mat-menu-item [matMenuTriggerFor]="videopreferences"> <mat-icon >video_library</mat-icon> <span  class="align-middle">Video preferences</span></button>
+              
+<mat-menu #languages="matMenu">
+  <button mat-menu-item ><img src="assets/images/us.jpg" alt="user-image" class="mr-2" height="12"> <span
+    class="align-middle">English</span></button>
+    <button mat-menu-item ><img src="assets/images/french.jpg" alt="user-image" class="mr-2" height="12"> <span
+      class="align-middle">French</span></button>
+    <button mat-menu-item> <img src="assets/images/spain.jpg" alt="user-image" class="mr-2" height="12"> <span
+      class="align-middle">Spanish</span></button>
+    <button mat-menu-item ><img src="assets/images/germany.jpg" alt="user-image" class="mr-2" height="12"> <span
+      class="align-middle">German</span></button>
+  </mat-menu>
+  
+  <mat-menu #videopreferences="matMenu">
+    <button mat-menu-item><mat-icon>groups</mat-icon><span
+      class="align-middle">Conferences</span></button>
+    <button mat-menu-item><mat-icon>voice_chat</mat-icon><span
+      class="align-middle">Meeting</span></button>
+    <button mat-menu-item><mat-icon>model_training</mat-icon><span
+      class="align-middle">Training</span></button>
+    <button mat-menu-item><mat-icon>web_asset</mat-icon><span
+      class="align-middle">Webinar</span></button>
+     
+  </mat-menu>
+  
+              <mat-divider class="divider"></mat-divider>
+
+              <button mat-menu-item>
+                <img src="assets/images/logout-1.png" alt="user-image" class="mr-2" height="12">  <span  class="align-middle">Logout</span>
+              </button>
+          </mat-menu>
+        
+        <span class="label">conversation</span>
+    <div class="input-group mb-6">
+            <input class="text-input" type="text" placeholder="search" aria-label="search">
+   </div>
+    </mat-toolbar-row>
+
+</mat-toolbar>

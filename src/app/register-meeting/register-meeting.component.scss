@@ -1,0 +1,125 @@
+.card{
+  position: relative;
+ margin-top: -20px;
+ background-color: #ffffff;
+ border-style:solid;
+}
+
+.Tilisco h2{
+  float: left;
+  margin-left: 70px;
+  margin-top: 28px;
+  font-size: 35px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333333;
+}
+.tilisco{
+  width: 100px;
+  position: absolute;
+  top: 3px;
+}
+
+.Goback{
+  float: right;
+  display: flex;
+  margin-right: 70px;
+  margin-top: 40px;
+}
+
+.Goback .title h2{
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #333333;
+ 
+}
+
+.Goback img.back {
+  width: 24px;
+  height: 24px;
+  padding-top: 7px;
+  padding-right: 4px;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.form-control{
+  border-radius: 6px;
+  border: solid 1px#3ca939;
+}
+.title{
+padding-top: 40px;
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+}
+.subtitle{
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #adadad;
+}
+.label{
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn{ border-radius: 6px;
+  background-color: #3ca939;}
+.form-control{
+  border-radius: 6px;
+  border: solid 1px#3ca939;
+}
+.title{
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  margin-top: 10px;
+}
+.subtitle{
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #adadad;
+  margin-bottom: 25px;
+}
+.form-group .label{
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn{ border-radius: 6px;
+  background-color: #3ca939;
+  margin: 0 auto;
+  width: 25%;
+}
+.arrow{
+  float: right;
+  color: #3ca939;
+  margin-top: 20px;
+  margin-right: 20px;
+}

@@ -1,0 +1,46 @@
+
+<div class="w">
+  <app-features-menu class="features" *ngIf="isFeatureOpned"></app-features-menu>
+  
+  <div class="i f">
+    <div class="t"></div>
+    <img class="micro"  (click)="Audio()" src="assets/img/micro.png">
+  </div>
+
+  <div class="i f">
+    <div class="t"></div>
+    <img class="micro" (click)="openChat()" src="assets/img/chat-1.png">
+   
+  </div>
+
+  <div class="i f">
+    <div class="t"></div>
+    <img class="micro" (click)="Video()" src="assets/img/mut-video.png">
+  </div>
+
+
+  <div class="i f">
+    <div class="t"></div>
+    <img class="call-end" src="assets/img/call-end.png">
+  </div>
+
+
+  <div class="i i">
+    <div class="t"></div>
+    <img class="micro" src="assets/img/bg.png">
+  </div>
+
+
+  <div class="i t">
+    <div class="t"></div>
+    <img class="micro" src="assets/img/add-emoji.png">
+  </div>
+
+
+  <div class="i y">
+    <div class="t">
+    </div>
+    <img class="options" (click)="openFeature()" src="assets/img/options.png">
+  </div>
+</div>
+

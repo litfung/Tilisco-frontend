@@ -1,0 +1,32 @@
+<div class="chat" #chatP id="chatP">
+
+  <app-chat-panel ></app-chat-panel>
+
+</div>
+<section class="content" #content id="content">
+    
+    <app-header class="header"></app-header>
+
+    
+    <div class="participant-content">
+        <div *ngFor="let user of users" class="participant"  >
+           <!-- <div class="name">
+             {{ user.split('-')[0].substr(0, 7) }}
+           </div> -->
+            <video  [id]="user" class="vid-participant" #consumerVideo autoplay  style=" object-fit: cover;" (click)="changeSream(user)"></video>
+            <audio [id]="user" #consumerAudio autoplay playsinline style="display: none;"></audio>
+        </div>
+      </div>
+    <div class="text">
+        <p class="name">Henriette Sontag</p>
+        <p class="time">01:30</p>
+        
+        
+    </div>
+<!-- style=" object-fit: cover;" -->
+    <video class="video-principale" autoplay #video ></video>
+    <app-control-menu (toggleChat)="openChat($event)" (audioState)="actdisAudio($event)" (videoState)="ActiveDisaWebCam($event)"></app-control-menu>
+    
+    
+
+</section>

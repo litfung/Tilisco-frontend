@@ -1,0 +1,45 @@
+
+.header{
+  position: absolute;
+  right: 80px;
+  top: 80px;
+  
+  display: flex;
+  justify-content: center;
+ 
+  .btn-visio {
+    width: 50px;
+    height: 50px;
+    border-radius: 35%;
+    background-color: #ffffff;
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    mat-icon{
+
+      color: #3ca939;
+      font-size: 26px;
+      //transform: translate(-22%,-22%);
+    }
+    
+  }
+} 
+.left-header{
+  position: absolute;
+  left: 80px;
+  top: 80px;
+  
+  display: flex;
+  justify-content: center;
+
+.left-icon{
+  color: #bfc5d1;
+  
+ 
+  font-size: 26px;
+
+}
+ 
+
+}
