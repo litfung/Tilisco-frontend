@@ -20,10 +20,11 @@ import { JoinMeetingComponent } from './authentication/join-meeting/join-meeting
 import { DetailComponent } from './authentication/detail/detail.component';
 import { CompanyDetailComponent } from './authentication/company-detail/company-detail.component';
 import { CompanyDetailOneComponent } from './authentication/company-detail-one/company-detail-one.component';
+import { ChatNgrxComponent } from './chat-ngrx/chat-ngrx.component';
 
 const routes: Routes = [{ 
   path:'',
-  component : JoinMeetingComponent,
+  component : DefaultComponent,
  
 
 
@@ -60,6 +61,10 @@ const routes: Routes = [{
     {
       path:'notifier',
       component : NotificationComponent
+    },
+    {
+      path:'chat-ngrx',
+      component : ChatNgrxComponent
     }
     ]
 }];
